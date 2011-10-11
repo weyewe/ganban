@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
   <title>Ganban</title>
@@ -8,7 +8,293 @@
 </head>
 <body>
 
-<%= yield %>
+<%#= yield %>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<title>Tunjukkan stylemu! | 2ndSkin.me</title>
+<meta name="Description" content="Semua orang bisa menjadi model, hanya masalah apakah mereka
+didukung oleh informasi style fashion">
+<meta name="title" content="Tunjukkan stylemu! -  Gantibaju.com">
+<meta name="Keywords" content="Semua orang bisa menjadi model, hanya masalah apakah mereka
+didukung oleh informasi style">
+
+<meta property="og:site_name" content="www.2ndskin.me">
+<meta property="fb:app_id" content="2343242">
+<meta property="og:description" content="Semua orang bisa menjadi model, hanya masalah apakah mereka
+didukung oleh informasi style">
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="en-US">
+<meta name="author" content="2ndskin.me">
+<meta name="copyright" content="Copyright 2010 2ndskin.me">
+
+
+
+
+
+<!-- rating -->
+
+<link media="screen" type="text/css" rel="stylesheet" href="Kompetisi%20desain%20kaos%20terbesar%20di%20Indonesia%20%7C%20GantiBaju.com_files/jquery-ui.css">
+<!--[if IE]>
+<link rel="stylesheet" type="text/css" href="http://www.gantibaju.com/css/ie-fix.css"/>
+  <%= stylesheet_link_tag "ie-fix" %>
+<![endif]-->
+<script type="text/javascript">
+function sortir(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+
+
+
+
+
+
+
+<script type="text/javascript">
+// initialise plugins
+jQuery(function(){
+        jQuery('ul.menu-top').superfish();
+});
+
+</script>
+
+<script type="text/javascript">
+	var SubMenutimer;
+	var last_o;
+
+	$(".mainbar").ready(function() {
+		$(".staticMenu dt a").click(function() {
+
+			$(".staticMenu dd ul").not($(this).parents(".staticMenu").find("ul")).hide();
+			$(".staticMenu dt a").not($(this)).removeClass("selected");
+			$(this).parents(".staticMenu").find("ul").toggle();
+
+			if($(this).parents(".staticMenu").find("ul").css("display") == "none"){
+				$(this).removeClass("selected");
+			}else{
+				$(this).addClass("selected");
+			}
+
+		});
+                $("#notif").click(function() {
+                                resetNotification();
+                            });
+
+		$(".staticMenu dd ul li a").click(function() {
+			var text = $(this).html();
+			//$(".staticMenu dt a span").html(text);
+			$(".staticMenu dd ul").hide();
+		});
+
+		$(document).bind('click', function(e) {
+			var $clicked = $(e.target);
+			if (! $clicked.parents().hasClass("staticMenu")){
+				$(".staticMenu dd ul").hide();
+				$(".staticMenu dt a").removeClass("selected");
+			}
+
+		});
+	});
+
+	function openSubMenu(o){
+		cancelSubMenuClose();
+
+		if(last_o) $(last_o).parent().find("div").hide();
+
+		last_o = o;
+		$(o).parent().find("div").show();
+	}
+
+	function closeSubMenu(){
+		SubMenutimer = setTimeout("close()",500);
+	}
+
+	function cancelSubMenuClose(){
+		clearTimeout(SubMenutimer);
+	}
+
+	function close(){
+		$(last_o).parent().find("div").hide();
+	}
+</script>
+<script>
+	function addToCartClick(id, size, number) {
+			if (number == ''|| number == 0){ number = 1;}
+			jQuery.post("http://www.gantibaju.com/sessioncart.php",{
+				 act:"add",
+				 id:id,
+				 size:size,
+				 number:number
+			 }, function(xml) {
+				 numberOfItem = jQuery("numberOfItem",xml).text();
+				 //jQuery('#topcart-status strong').text(numberOfItem);
+                                 jQuery('#topcart-status').html('<span ><img height="20" style="margin-bottom: -5px;" src="http://www.gantibaju.com/images/cart_flat.png" /></span> ' +numberOfItem+ ' Pesanan :) <span ><img src="http://www.gantibaju.com/images/menu_open.gif" /></span>');
+                                 jQuery('#tambahcartdlg').html('<h3 class="judul">Mau Langsung Checkout Sekarang Aja?</h3><div class="clear" style="height: 15px;"></div><p class="dialog-buttons clearfix"><a href="http://www.gantibaju.com//invoice.php" title="Cekout" class="dash dash1"><span>checkout Sekarang</span></a><a class="dash dash2 fancyclose" onclick="$.fancybox.close();" title="Jangan" href="#divsize"><span>Lanjut Belanja</span></a></p>');
+			});
+
+	}
+
+	function clearCartClick(){
+			//if (number == ''|| number == 0){ number = 1;}
+
+			jQuery.post("http://www.gantibaju.com/sessioncart.php",{
+					act:"batal"
+			},function(xml) {
+				 numberOfItem = 0;//jQuery("numberOfItem",xml).text();
+				 //jQuery('#topcart-status strong').text(numberOfItem);
+                                 jQuery('#topcart-status').html('<span ><img height="20" style="margin-bottom: -5px;" src="http://www.gantibaju.com/images/cart_flat.png" /></span> ' +numberOfItem+ ' Pesanan :) <span ><img src="http://www.gantibaju.com/images/menu_open.gif" /></span>');
+                                 jQuery('#tambahcartdlg').html('<h3 class="judul">Cart Belanja Kosong..</h3><p>Silahkan Pilih dan klik ukuran kaos untuk memasukkan ke Cart! </p><div class="clear" style="height: 15px;"></div><p class="dialog-buttons clearfix"><a class="dash dash2 fancyclose"  onclick="$.fancybox.close();" title="Kembali Belanja" href="#divsize"><span>OK!</span></a></p>');
+                 //jQuery('#keranjangku').html();
+                 $.fancybox.close();
+                 jQuery('#checkout-title').html('');
+
+
+			});
+
+	}
+        function closewarningmessage(){
+
+            jQuery("#warningmsg").html('');
+            //return true;
+        }
+
+	function breadcrumb(urlbread){
+
+			jQuery("#breadcrumbspan").html(urlbread);
+	}
+
+
+		var baseUrl = "http://www.gantibaju.com/";
+		var usingCart = true;
+		var targetChange, topPosition;
+
+
+		function updatePrice(size, shirtid, targetId) {
+			targetChange = targetId;
+			objAJAX = createXMLHttpRequest();
+			objAJAX.onreadystatechange = setPrice;
+			objAJAX.open("GET", "http://www.gantibaju.com/shirtdata.php?size="+size+"&shirtid="+shirtid, true);
+			objAJAX.send(null);
+		}
+
+		function setClickCount(id){
+			objAJAX = createXMLHttpRequest();
+			objAJAX.onreadystatechange = setPrice;
+			objAJAX.open("GET", "http://www.gantibaju.com/banner.php?action=click&id="+id, true);
+			objAJAX.send(null);
+		}
+		function setPrice() {
+			if (objAJAX.readyState == 4) {
+				if (objAJAX.status == 200) {
+					document.getElementById(targetChange).innerHTML =  objAJAX.responseText;
+				}
+			}
+		}
+
+		function showLogin(){
+			document.getElementById('objLogin').style.display="block";
+			document.getElementById('objForgotPass').style.display="none";
+			document.getElementById('action').value="login";
+		}
+		function showForgetPass(){
+			document.getElementById('objLogin').style.display="none";
+			document.getElementById('objForgotPass').style.display="block";
+			document.getElementById('action').value="forgotpass";
+		}
+                function loginwithFB(){
+                        jQuery.post("http://www.gantibaju.com/formlogin.php",{
+                                        FB : 1,
+                                        reflink : 1,
+                                        headreq : 1
+			},function(xml) {
+
+                                 jQuery('#usermenu').html(xml);
+
+
+			});
+
+                }
+                function SetLanguage(lang){
+                        jQuery.post("http://www.gantibaju.com/chooselanguage.php",{
+                                        lang : lang
+
+			},function(xml) {
+                                 window.location=xml;
+                                 //jQuery('#usermenu').html(xml);
+
+
+			});
+
+                }
+
+
+                    function resetNotification(){
+                            jQuery.post("http://www.gantibaju.com/resetnotification.php",{
+
+                            },function(xml) {
+
+                                     jQuery('#countnotif').css('display','none');
+
+
+                            });
+
+                    }
+
+
+
+
+	</script>
+</head>
+ 
+
+<body>
+  <div class=" fb_reset" id="fb-root">
+    <div style="position: absolute; top: -10000px; height: 0pt; width: 0pt;"></div>
+  </div>
+  
+  <%= render :partial => "shared/main_nav"%>
+  
+  <div id="warningmsg" align="center">
+  </div>
+  
+
+  <div id="wrap" class="baju">
+    <div id="main"  style="padding-bottom: 224px;" class="clearfix">
+      <%= render :partial => "shared/menu" %>
+
+      <div class="clear"></div>
+
+      <%= render :partial => "shared/breadcrumb"%>
+
+      <div class="clear"></div>
+
+      <h1 style="display:none;"><a href="http://2ndSkin.me/">Tunjukkan Style Mu!</a></h1>
+      <h2 style="display:none;"><a href="http://2ndSkin.me/">Tunjukkan Style Mu!</a></h2>
+
+
+      <script>
+      $('.headmenu1').addClass("on");
+      </script>
+
+      <div id="content" class="container_16 clearfix">
+        <%= yield %>
+        <div class="clear"></div>
+      </div> <!--content-->
+    </div> <!--main-->
+  </div> <!-- end of #wrap -->
+  <%= render :partial => "shared/footer" %>
+  <%= render :partial => "shared/fancybox_tmp"%>
+  
+
 
 </body>
 </html>
+

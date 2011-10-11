@@ -1,0 +1,329 @@
+/*
+	Theme Name: GANTIBAJU 2.0
+	Theme URI: http://gantibaju.com/
+	Version: 0.0
+*/
+
+/*
+Author: Momo vs. Budi yeehaw!
+*/
+
+
+/*
+
+START KICKING!
+
+*/
+
+body {background:#b0d1d8 url(images/bg.jpg) repeat center top}
+#logo a {background:url(images/logo.png) no-repeat left top}
+#usermenu {background:url(images/sideline.png) no-repeat right top}
+#register {background:url(images/register.png) no-repeat left top}
+#topcart {background:url(images/cart.png) no-repeat left center}
+#menu {background:url(images/menu-ribbon.png) no-repeat center top}
+#menu .has a {background:url(images/arrow-bottom-black.png) no-repeat right center}
+#menu .has a:hover, #menu .has:hover a {background:url(images/arrow-bottom-pink.png) no-repeat right center}
+#menu .has ul li a, #menu .has ul li a:hover, #menu .has:hover ul li a {background:none}
+.menu-top ul {background:url(images/top-ul.png) repeat-x top left}
+.menu-top ul li {background:url(images/downline.png) no-repeat bottom center}
+
+.pagination a {border-color: #323A47;color: #323A47}
+.pagination a:hover {border-color: #4F5F71;background:#fff;color: #4F5F71}
+.pagination span.current {border-color: transparent;color: #323A47;font-weight:bold;}
+.preview, .nav {background: #323D47;color: #fff}
+#searchbox {background: url(images/search.png) no-repeat left top}
+#searchbutton {background: url(images/button-search.png) no-repeat top left}
+
+.slide-desc {background: url(images/headline.png) no-repeat center -15px}
+.slide .zoom {background: #323D47} .slide .zoom:hover {background: #f36}
+#slider .next, #slider .prev {background-image: url(images/slide.png) }
+#slider .next {background-position: bottom right} #slider .next:hover {background-position: top right}
+#slider .prev {background-position: bottom left} #slider .prev:hover {background-position: top left}
+#slider .navi a, #kaos-slider .navi a {background: url(images/nav.png) no-repeat top right}
+#slider .navi a:hover, #slider .navi a.active, #kaos-slider .navi a:hover, #kaos-slider .navi a.active {background-position: top left}
+
+#kaos-slider a {border-color: #fff} #kaos-slider a:hover {border-color: #4F5F71}
+.kaos-slide a:hover {background:url(images/button-search.png) no-repeat center center}
+/*fb*/
+.slideFB .zoom {background: #323D47} .slideFB .zoom:hover {background: #f36}
+#sliderFB .nextFB, #sliderFB .prevFB {background-image: url(images/slide.png) }
+#sliderFB .nextFB {background-position: bottom right} #sliderFB .nextFB:hover {background-position: top right}
+#sliderFB .prevFB {background-position: bottom left} #sliderFB .prevFB:hover {background-position: top left}
+#sliderFB .naviFB a, #kaos-sliderFB .naviFB a {background: url(images/nav.png) no-repeat top right}
+#sliderFB .naviFB a:hover, #sliderFB .naviFB a.active, #kaos-sliderFB .navi a:hover, #kaos-sliderFB .naviFB a.active {background-position: top left}
+
+#kaos-sliderFB a {border-color: #fff} #kaos-sliderFB a:hover {border-color: #4F5F71}
+.kaos-slideFB a:hover {background:url(images/button-search.png) no-repeat center center}
+/*fb*/
+
+.size a span, .size a.habis:hover span {background: #fff;color:#323A47}
+/*.size a:hover span {background: #ef8839;color: #fff}
+.size a:click span {background: #ef8839;color: #fff}*/
+.size a.habis {opacity:0.4}
+.sizeFB a span, .sizeFB a.habis:hover span {background: #fff;color:#323A47}
+/*.size a:hover span {background: #ef8839;color: #fff}
+.size a:click span {background: #ef8839;color: #fff}*/
+.sizeFB a.habis {opacity:0.4}
+.avatar a, .narsis a, .slide-image {border-color: #fff}
+.avatar a:hover, .narsis a:hover, .slide-image:hover {border-color: #4F5F71}
+
+#recommend {background: url(images/arrow-pink-down.png) no-repeat 260px top}
+#voting {background: url(images/voting-star.png) no-repeat left center}
+.kaos-image a, .design-image a {border-color: #fff}
+.kaos-image a:hover, .design-image a:hover {border-color: #4F5F71}
+.kaos-price, .design-votes {background: #fff;border-color: #fff}
+
+.desain-image img {border-color: #fff;}
+.desain-lain a, .desain-lain-side a {border-color: #fff}
+.desain-lain a:hover, .desain-lain-side a:hover {border-color: #4F5F71}
+#widget p input {border-color: #fff}
+
+.thecomment {background: url(images/comment-bg.png) no-repeat center top}
+.thecommentnew {background: url(images/comment-bgnew.png) no-repeat center top}
+.comment cite {background: #D1E2E6}
+.byauthor cite {
+	background: #fff url(images/byauthor.png) no-repeat 5px center !important;
+	padding: 5px 7px 5px 25px;
+}
+
+.narsis-form form p input[type="text"], .narsis-form form p textarea {border-color: #4F5F71;background: #fff}
+.narsis-form form p input[type="text"]:focus, .narsis-form form p textarea:focus {background: #eee}
+
+#profile-avatar {border-color:#fff;}
+#profile-tabs {border-color:#9CAEBC}
+#profile-tabs li a {}
+#profile-tabs li a:hover{color:#fff} #profile-tabs li a.current {border-bottom: solid black 3px;  }
+
+#respond-top {background: url(images/respond-top.png) no-repeat left top}
+#respond-middle {background: url(images/respond-middle.png) repeat-y left top}
+#respond-bottom {background: url(images/respond-bottom.png) no-repeat left top}
+#respond-middle .disinput {background: #fff;border: 1px solid #fff;}
+
+#respond-topnew {background: url(images/respond-topnew.png) no-repeat left top}
+#respond-middlenew {background: url(images/respond-middlenew.png) repeat-y left top}
+#respond-bottomnew {background: url(images/respond-bottomnew.png) no-repeat left top}
+#respond-middlenew .disinput {background: #fff;border: 1px solid #fff;}
+
+#respondVote-top {background: url(images/respond-top.png) no-repeat left top}
+#respondVote-middle {background: url(images/respond-middle.png) repeat-y left top}
+#respondVote-bottom {background: url(images/respond-bottom.png) no-repeat left top}
+#respondVote-middle .disinput {background: #fff;border: 1px solid #fff;}
+
+.banner a {border-color: #A7C7CF}
+.banner a:hover {border-color: #4F5F71}
+.kirim-banner {background: url(images/kirim-design.png) no-repeat center top}
+
+#side-tweets-top {background: url(images/tweets-top.png) no-repeat center bottom}
+#side-tweets-middle {background: url(images/tweets-middle.png) repeat-y center top}
+#side-tweets-bottom {background: url(images/tweets-bottom.png) no-repeat center top}
+
+#newsletter-side {background: url(images/newsletter.png) no-repeat center top}
+#newsletter-side input[type="submit"] {background: url(images/button-ok.png) no-repeat top left}
+
+#size-chart {background: url(images/size-chart.png) no-repeat left top}
+
+.talk {border-color: #96BDC7}
+.talk-image a {border-color: #fff}
+.talk-image a:hover {border-color: #323A47}
+
+#bottom-links {background: url(images/bottom-links.png) no-repeat center top}
+
+.badge-preorder {background: url(images/badge-preorder.png) no-repeat left top}
+.badge-sale {background: url(images/badge-sale.png) no-repeat left top}
+.badge-new {background: url(images/badge-new.png) no-repeat left top}
+.badge-ladies {background: url(images/badge-ladies.png) no-repeat left top}
+.badge-fewleft {background: url(images/badge-fewleft.png) no-repeat left top}
+.badge-soldout {background: url(images/badge-soldout.png) no-repeat left top}
+
+table.cart {border-color:#323D47}
+table.cart th {background:#323D47;color:#fff;}
+table.cart td .cart-image {border-color:#fff}
+table.cart td {border-color:#9CAEBC}
+
+#accordion {background:#9EC2CB}
+/* #accordion h2 {color:#738D96;background:url(images/arrow-right-grey.png) no-repeat 0 center} */
+#accordion h2 {color:#323A47;background:url(images/arrow-right-black.png) no-repeat 0 center}
+/* #accordion h2.current {color:#323A47;background:url(images/arrow-bottom-black.png) no-repeat 0 center} */
+
+#signupForm {color:#323A47;background:#9EC2CB}
+#signupForm a {color:#fff;}
+
+.page a {color:#000}
+
+.side-cart-top {background:url(images/side-cart-top.png) no-repeat top center;}
+.side-narsis-top {background:url(images/side-narsis-top.png) no-repeat top center;}
+.side-cart-middle {background:url(images/side-cart-middle.png) repeat-y top center;}
+.side-cart-bottom {background:url(images/side-cart-bottom.png) no-repeat bottom center;}
+.side-cart-middle ol li {background:url(images/separator.png) repeat-x bottom center;}
+
+#thankyou .attention {background:#ffc;}
+
+#twitter_update_list li {background:url(images/separator.png) repeat-x bottom left;}
+
+.separator {background: url(images/separator.png) repeat-x top left}
+.separator2 {background: url(images/separator2.png) repeat-x top left}
+.dash1 {background:url(images/dashed-black-left.png) no-repeat left top}
+.dash1 span {background:url(images/dashed-black-right.png) no-repeat right top}
+.dash2 {background:url(images/dashed-grey-left.png) no-repeat left top}
+.dash2 span {background:url(images/dashed-grey-right.png) no-repeat right top}
+.dash3 {background:url(images/dashed-white-left.png) no-repeat left top}
+.dash3 span {background:url(images/dashed-white-right.png) no-repeat right top}
+.dash4 {background:url(images/dashed-grey-big-left.png) no-repeat left top}
+.dash4 span {background:url(images/dashed-grey-big-right.png) no-repeat right top}
+
+#menu a,
+#menu .has:hover ul li a,
+#loginout,
+#breadcrumbs a,
+.dash2:hover span,
+.dash3 span,
+.kaos-desc a,
+.design-desc a,
+.judul,
+.subjudul,
+.kaos-detail h4,
+.desain-detail h4,
+.harganya,
+.size a em,
+.par p a,
+.barate-icon a em,
+#right-content .title,
+#right-content .side-desc a,
+#bottom-links a,
+#copyright,
+#copyright a,
+#checkout-title,
+.talk-meta cite a,
+.par-desainer p a,
+.narsis-form,
+.narsis-form a,
+.comment cite a,
+#respond-middle,
+#respond-middle p.info a,
+#topcart-links,
+#topcart-links a,
+#profile a,
+#profile-left a,
+#profile-middle a,
+#profile-right a,
+#profile-tabs li a,
+.profile-pane h2,
+table.cart,
+.discount,
+.side-cart-middle ol,
+.side a,
+.subjudul a,
+#thankyou .attention,
+.page,
+
+#edit-link:hover,
+#bottom-links p,
+.tpl a
+{color:#323A47}
+
+.slide-desc p,
+.slide-desc p a
+{color:#9CAEBC}
+
+.kaos-desc p,
+.design-desc p,
+#side-tweets a.timestamp,
+.talk-meta .date,
+.kaos-detail p,
+.desain-detail p,
+#respond-middle p.info a:hover,
+#profile,
+#profile-left,
+#profile-middle,
+#profile-right,
+#datasignup,
+.ask a,
+.side-cart-middle,
+#ordertime
+{color: #4F5F71}
+
+#breadcrumbs
+{color: #666}
+
+#searchbox label
+{color: #999}
+
+#loginout span
+{color:#A0B2C0}
+
+#loginout:hover,
+#register,
+.preview a,
+.dash1 span,
+.dash2 span,
+.dash4 span,
+.slide-desc h3 a,
+.slide-price,
+.slide .zoom,
+#voting,
+.kirim-middle,
+.narsis-form a:hover,
+.narsis-form p.push a,
+.profile-pane .dash span,
+#profile-link,
+#edit-link,
+#logout-link,
+.nav a,
+label.error
+{color:#fff}
+
+#register:hover
+{color:#323D47}
+
+.harganya .promo,
+span.error
+{color: #f00}
+
+#menu a:hover,
+#menu .has:hover a,
+#menu .has:hover ul li a:hover,
+.dash1:hover span,
+.dash3:hover span,
+.dash4:hover span,
+.slide-desc h3 a:hover,
+.slide-desc p a:hover,
+.par-in .batas,
+#side-tweets a,
+#bottom-links h3,
+#bottom-links a span,
+.preview a:hover,
+.comment cite a:hover,
+#profile-left ul li a:hover,
+#profile-middle p a:hover,
+.ask a:hover,
+#thankyou h2,
+#thankyou .attention p strong,
+#logout-link:hover,
+.tpl a:hover span
+{color:#f36}
+
+#breadcrumbs a:hover,
+.kaos-desc a:hover,
+.design-desc a:hover,
+#right-content .side-desc a:hover,
+#side-tweets a:hover,
+#bottom-links a:hover,
+#copyright a:hover,
+.par p a:hover,
+.preview a,
+.talk-meta a:hover,
+.par-desainer p a:hover,
+.narsis-form a,
+.comment cite a,
+#respond-middle p.info a,
+#topcart-links a:hover,
+#profile a:hover,
+#profile-left ul li a,
+#profile-middle p a,
+.ask a,
+.side a:hover,
+.subjudul a:hover,
+.page a:hover,
+.nav a:hover,
+#signupForm a:hover
+{text-decoration: underline}
