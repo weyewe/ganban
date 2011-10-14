@@ -1,0 +1,56 @@
+
+
+<%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:id => "com-login"}) do |f| %>
+  <p class="dissolve">
+    <%= f.email_field :email , :style => "height: 20px;font-style: italic;width:350px;height: 25px;",
+        :title => "Masukan username/email kamu disini", 
+        :class => "text" , :onmouseout => "if(this.value==''){this.value='Username / email'}" ,
+        :onclick => "this.value=''"   %>
+  </p>
+
+  <p class="dissolve">
+    <%= f.password_field :password , :class => "text", :title => "Masukkan Password kamu disini" ,
+        :style => "height: 20px;font-style: italic;width:350px;height: 25px;" ,
+        :onkeypress => "return submitenter(this,event)"%>
+  </p>
+
+  <% if devise_mapping.rememberable? -%>
+    <p class="check">
+      <%= f.check_box :remember_me , :onfocus => "this.checked='checked'"%> 
+      <strong>Ingat aku!</strong> (jangan dicentang jika memakai komputer publik)
+    </p>
+  <% end -%>
+  
+  <p id="bukaforgot" class="check"><span>&nbsp;&nbsp;</span><span><a onclick="forgotpassf();return false;" href="#">Forgot Password</a></span></p>
+  
+
+<% end %>
+
+<!-- 
+<form name="FmLogin" method="post" id="com-login" action="formlogin.php">
+  <input type="hidden" value="" name="page">
+  <input type="hidden" value="" name="designId">
+  <input type="hidden" value="" name="votevalue">
+  <input type="hidden" value="" name="voteComment">
+  <p class="dissolve">
+  <input type="text" value="" title="Masukan username/email kamu disini" onmouseout="if(this.value==''){this.value='Username / email'}" onclick="this.value=''" name="username" class="text" style="height: 20px;font-style: italic;width:350px;height: 25px;" id="com-uname">
+</p>
+<p class="dissolve">
+<input type="password" title="Masukan Password kamu disini" name="password" class="text" id="com-pass" style="height: 20px;font-style: italic;width:350px;height: 25px;" onkeypress="return submitenter(this,event)">
+</p>
+<p class="check"><input type="checkbox" value="1" onfocus="this.checked='checked'" id="remember" name="remember"> <strong>Ingat aku!</strong> (jangan dicentang jika memakai komputer publik)</p>
+<p id="bukaforgot" class="check"><span>&nbsp;&nbsp;</span><span><a onclick="forgotpassf();return false;" href="#">Forgot Password</a></span></p>
+<div style="display:none" id="forgotpass" class="login-box">
+  <p>Kita bakal kirim konfirmasi password ke email kamu.</p>
+
+  <input type="hidden" id="reqUrl" name="reqUrl" value="http://www.gantibaju.com/login.php">
+
+  <p>
+    <input type="text" size="20" name="email" value="Masukan email kamu" title="Masukan email kamu disini" onmouseout="if(this.value==''){this.value='Masukan email kamu'}" onclick="this.value=''" onkeypress="cekForgotEnter(event)" id="emailForgot" style="font-style: italic;" class="text">
+    <input type="button" value="Lupa Password" onclick="submitForgot('http://www.gantibaju.com/login.php')" name="login" class="button">
+  </p>
+  <p class="check"><span><a onclick="hideForgetPass(); return false;" title="Login" href="#">← Eh, gajadi deh.</a></span></p>
+  <input type="hidden" name="action" id="action" value="forgotpass">
+
+
+</div></form> -->

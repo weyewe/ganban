@@ -1,0 +1,68 @@
+
+<div id="left-content"> 
+	 
+	  
+					<div id="respond">
+                    	<div id="respond-top">
+                    		<h3>Login ke cloneGB.me</h3>
+                    	</div>
+                    	<div id="respond-middle">
+                    		
+                                <table>
+                                    <tbody>
+                                      <tr>
+                                        <td>
+                                            <p class="info"><font style="font-size: 11px;">Masukkan <em>Username</em> dan <em>password</em> atau</font> &nbsp;
+                                    </p>
+                                    </td>
+                                    <td align="right">
+                                    
+<!-- <script src="http://connect.facebook.net/en_US/all.js"></script>
+<script>
+  FB.init({appId: '161280607226360', status: true, cookie: true, xfbml: true});
+  FB.Event.subscribe('auth.sessionChange', function(response) {
+    if (response.session) {
+      window.location = "http://www.gantibaju.com/formlogin.php?FB=1";
+      // A user has logged in, and a new cookie has been saved
+      //exit;
+    } else {
+      // The user has logged out, and the cookie has been cleared
+    }
+  });
+</script>
+<fb:login-button length="long" perms="email,user_birthday,publish_stream,publish_checkins,user_location,user_hometown"><a class="fb_button fb_button_medium"><span class="fb_button_text">Sign in with Facebook</span></a></fb:login-button> -->
+Facebook
+
+                                    </td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                
+                                <%= render :partial => "users/sessions/login_form" %>
+                                
+                                
+                                                <p style="display:none" id="loadingLoginCont"><img src="http://www.gantibaju.com/images/loadingAnimation.gif" alt="Loading..."><span id="loadingMessage">Loading...</span></p>
+                                                <div id="objResult">
+
+                                                </div>
+                                <input type="submit" value="" style="width:0px;height:0px;border: 0px;display:none; " id="loginbtn">
+		            			<!--<p><input name="button" type="submit" value="Login" class="dash dash4" /></p>-->
+                                <p><a class="dash dash4" title="login" onclick="document.getElementById('com-login').submit();return false" onkeypress="if(keyCode==13 || keyCode==32){document.getElementById('com-login').submit();return false;}" href="#"><span>login</span></a>
+                                    
+                                </p>
+
+	            			
+                    	</div>
+                    	<div id="respond-bottom">
+                            
+                        </div>
+                    </div>
+	  
+	   <div class="kirim">
+		 
+
+			
+	  </div>
+	</div>
+	
+	
