@@ -1,59 +1,44 @@
-/*
-	Theme Name: GANTIBAJU 2.0
-	Theme URI: http://gantibaju.com/
-	Version: 0.0
-*/
-
-/*
-Author: Momo vs. Budi yeehaw!
-*/
 
 
-/*
-
-START KICKING!
-
-*/
-
-body {background:#b0d1d8 url(images/bg.jpg) repeat center top}
-#logo a {background:url(images/logo.png) no-repeat left top}
-#usermenu {background:url(images/sideline.png) no-repeat right top}
-#register {background:url(images/register.png) no-repeat left top}
-#topcart {background:url(images/cart.png) no-repeat left center}
-#menu {background:url(images/menu-ribbon.png) no-repeat center top}
-#menu .has a {background:url(images/arrow-bottom-black.png) no-repeat right center}
-#menu .has a:hover, #menu .has:hover a {background:url(images/arrow-bottom-pink.png) no-repeat right center}
+body {background:#b0d1d8 url(/images/bg.jpg) repeat center top}   /* /images/bg.jpg*/
+#logo a {background:url(/images/logo.png ) no-repeat left top}    /* /images/logo.png */
+#usermenu {background:url(/images/sideline.png) no-repeat right top}
+#register {background:url(/images/register.png) no-repeat left top}
+#topcart {background:url(/images/cart.png) no-repeat left center}
+#menu {background:url(/images/menu-ribbon.png) no-repeat center top}
+#menu .has a {background:url(/images/arrow-bottom-black.png) no-repeat right center}
+#menu .has a:hover, #menu .has:hover a {background:url(/images/arrow-bottom-pink.png) no-repeat right center}
 #menu .has ul li a, #menu .has ul li a:hover, #menu .has:hover ul li a {background:none}
-.menu-top ul {background:url(images/top-ul.png) repeat-x top left}
-.menu-top ul li {background:url(images/downline.png) no-repeat bottom center}
+.menu-top ul {background:url(/images/top-ul.png) repeat-x top left}
+.menu-top ul li {background:url(/images/downline.png) no-repeat bottom center}
 
 .pagination a {border-color: #323A47;color: #323A47}
 .pagination a:hover {border-color: #4F5F71;background:#fff;color: #4F5F71}
 .pagination span.current {border-color: transparent;color: #323A47;font-weight:bold;}
 .preview, .nav {background: #323D47;color: #fff}
-#searchbox {background: url(images/search.png) no-repeat left top}
-#searchbutton {background: url(images/button-search.png) no-repeat top left}
+#searchbox {background: url(/images/search.png) no-repeat left top}
+#searchbutton {background: url(/images/button-search.png) no-repeat top left}
 
-.slide-desc {background: url(images/headline.png) no-repeat center -15px}
+.slide-desc {background: url(/images/headline.png) no-repeat center -15px}
 .slide .zoom {background: #323D47} .slide .zoom:hover {background: #f36}
-#slider .next, #slider .prev {background-image: url(images/slide.png) }
+#slider .next, #slider .prev {background-image: url(/images/slide.png) }
 #slider .next {background-position: bottom right} #slider .next:hover {background-position: top right}
 #slider .prev {background-position: bottom left} #slider .prev:hover {background-position: top left}
-#slider .navi a, #kaos-slider .navi a {background: url(images/nav.png) no-repeat top right}
+#slider .navi a, #kaos-slider .navi a {background: url(/images/nav.png) no-repeat top right}
 #slider .navi a:hover, #slider .navi a.active, #kaos-slider .navi a:hover, #kaos-slider .navi a.active {background-position: top left}
 
 #kaos-slider a {border-color: #fff} #kaos-slider a:hover {border-color: #4F5F71}
-.kaos-slide a:hover {background:url(images/button-search.png) no-repeat center center}
+.kaos-slide a:hover {background:url(/images/button-search.png) no-repeat center center}
 /*fb*/
 .slideFB .zoom {background: #323D47} .slideFB .zoom:hover {background: #f36}
-#sliderFB .nextFB, #sliderFB .prevFB {background-image: url(images/slide.png) }
+#sliderFB .nextFB, #sliderFB .prevFB {background-image: url(/images/slide.png) }
 #sliderFB .nextFB {background-position: bottom right} #sliderFB .nextFB:hover {background-position: top right}
 #sliderFB .prevFB {background-position: bottom left} #sliderFB .prevFB:hover {background-position: top left}
-#sliderFB .naviFB a, #kaos-sliderFB .naviFB a {background: url(images/nav.png) no-repeat top right}
+#sliderFB .naviFB a, #kaos-sliderFB .naviFB a {background: url(/images/nav.png) no-repeat top right}
 #sliderFB .naviFB a:hover, #sliderFB .naviFB a.active, #kaos-sliderFB .navi a:hover, #kaos-sliderFB .naviFB a.active {background-position: top left}
 
 #kaos-sliderFB a {border-color: #fff} #kaos-sliderFB a:hover {border-color: #4F5F71}
-.kaos-slideFB a:hover {background:url(images/button-search.png) no-repeat center center}
+.kaos-slideFB a:hover {background:url(/images/button-search.png) no-repeat center center}
 /*fb*/
 
 .size a span, .size a.habis:hover span {background: #fff;color:#323A47}
@@ -67,8 +52,8 @@ body {background:#b0d1d8 url(images/bg.jpg) repeat center top}
 .avatar a, .narsis a, .slide-image {border-color: #fff}
 .avatar a:hover, .narsis a:hover, .slide-image:hover {border-color: #4F5F71}
 
-#recommend {background: url(images/arrow-pink-down.png) no-repeat 260px top}
-#voting {background: url(images/voting-star.png) no-repeat left center}
+#recommend {background: url(/images/arrow-pink-down.png) no-repeat 260px top}
+#voting {background: url(/images/voting-star.png) no-repeat left center}
 .kaos-image a, .design-image a {border-color: #fff}
 .kaos-image a:hover, .design-image a:hover {border-color: #4F5F71}
 .kaos-price, .design-votes {background: #fff;border-color: #fff}
@@ -78,11 +63,11 @@ body {background:#b0d1d8 url(images/bg.jpg) repeat center top}
 .desain-lain a:hover, .desain-lain-side a:hover {border-color: #4F5F71}
 #widget p input {border-color: #fff}
 
-.thecomment {background: url(images/comment-bg.png) no-repeat center top}
-.thecommentnew {background: url(images/comment-bgnew.png) no-repeat center top}
+.thecomment {background: url(/images/comment-bg.png) no-repeat center top}
+.thecommentnew {background: url(/images/comment-bgnew.png) no-repeat center top}
 .comment cite {background: #D1E2E6}
 .byauthor cite {
-	background: #fff url(images/byauthor.png) no-repeat 5px center !important;
+	background: #fff url(/images/byauthor.png) no-repeat 5px center !important;
 	padding: 5px 7px 5px 25px;
 }
 
@@ -94,46 +79,46 @@ body {background:#b0d1d8 url(images/bg.jpg) repeat center top}
 #profile-tabs li a {}
 #profile-tabs li a:hover{color:#fff} #profile-tabs li a.current {border-bottom: solid black 3px;  }
 
-#respond-top {background: url(images/respond-top.png) no-repeat left top}
-#respond-middle {background: url(images/respond-middle.png) repeat-y left top}
-#respond-bottom {background: url(images/respond-bottom.png) no-repeat left top}
+#respond-top {background: url(/images/respond-top.png) no-repeat left top}
+#respond-middle {background: url(/images/respond-middle.png) repeat-y left top}
+#respond-bottom {background: url(/images/respond-bottom.png) no-repeat left top}
 #respond-middle .disinput {background: #fff;border: 1px solid #fff;}
 
-#respond-topnew {background: url(images/respond-topnew.png) no-repeat left top}
-#respond-middlenew {background: url(images/respond-middlenew.png) repeat-y left top}
-#respond-bottomnew {background: url(images/respond-bottomnew.png) no-repeat left top}
+#respond-topnew {background: url(/images/respond-topnew.png) no-repeat left top}
+#respond-middlenew {background: url(/images/respond-middlenew.png) repeat-y left top}
+#respond-bottomnew {background: url(/images/respond-bottomnew.png) no-repeat left top}
 #respond-middlenew .disinput {background: #fff;border: 1px solid #fff;}
 
-#respondVote-top {background: url(images/respond-top.png) no-repeat left top}
-#respondVote-middle {background: url(images/respond-middle.png) repeat-y left top}
-#respondVote-bottom {background: url(images/respond-bottom.png) no-repeat left top}
+#respondVote-top {background: url(/images/respond-top.png) no-repeat left top}
+#respondVote-middle {background: url(/images/respond-middle.png) repeat-y left top}
+#respondVote-bottom {background: url(/images/respond-bottom.png) no-repeat left top}
 #respondVote-middle .disinput {background: #fff;border: 1px solid #fff;}
 
 .banner a {border-color: #A7C7CF}
 .banner a:hover {border-color: #4F5F71}
-.kirim-banner {background: url(images/kirim-design.png) no-repeat center top}
+.kirim-banner {background: url(/images/kirim-design.png) no-repeat center top}
 
-#side-tweets-top {background: url(images/tweets-top.png) no-repeat center bottom}
-#side-tweets-middle {background: url(images/tweets-middle.png) repeat-y center top}
-#side-tweets-bottom {background: url(images/tweets-bottom.png) no-repeat center top}
+#side-tweets-top {background: url(/images/tweets-top.png) no-repeat center bottom}
+#side-tweets-middle {background: url(/images/tweets-middle.png) repeat-y center top}
+#side-tweets-bottom {background: url(/images/tweets-bottom.png) no-repeat center top}
 
-#newsletter-side {background: url(images/newsletter.png) no-repeat center top}
-#newsletter-side input[type="submit"] {background: url(images/button-ok.png) no-repeat top left}
+#newsletter-side {background: url(/images/newsletter.png) no-repeat center top}
+#newsletter-side input[type="submit"] {background: url(/images/button-ok.png) no-repeat top left}
 
-#size-chart {background: url(images/size-chart.png) no-repeat left top}
+#size-chart {background: url(/images/size-chart.png) no-repeat left top}
 
 .talk {border-color: #96BDC7}
 .talk-image a {border-color: #fff}
 .talk-image a:hover {border-color: #323A47}
 
-#bottom-links {background: url(images/bottom-links.png) no-repeat center top}
+#bottom-links {background: url(/images/bottom-links.png) no-repeat center top}
 
-.badge-preorder {background: url(images/badge-preorder.png) no-repeat left top}
-.badge-sale {background: url(images/badge-sale.png) no-repeat left top}
-.badge-new {background: url(images/badge-new.png) no-repeat left top}
-.badge-ladies {background: url(images/badge-ladies.png) no-repeat left top}
-.badge-fewleft {background: url(images/badge-fewleft.png) no-repeat left top}
-.badge-soldout {background: url(images/badge-soldout.png) no-repeat left top}
+.badge-preorder {background: url(/images/badge-preorder.png) no-repeat left top}
+.badge-sale {background: url(/images/badge-sale.png) no-repeat left top}
+.badge-new {background: url(/images/badge-new.png) no-repeat left top}
+.badge-ladies {background: url(/images/badge-ladies.png) no-repeat left top}
+.badge-fewleft {background: url(/images/badge-fewleft.png) no-repeat left top}
+.badge-soldout {background: url(/images/badge-soldout.png) no-repeat left top}
 
 table.cart {border-color:#323D47}
 table.cart th {background:#323D47;color:#fff;}
@@ -141,35 +126,35 @@ table.cart td .cart-image {border-color:#fff}
 table.cart td {border-color:#9CAEBC}
 
 #accordion {background:#9EC2CB}
-/* #accordion h2 {color:#738D96;background:url(images/arrow-right-grey.png) no-repeat 0 center} */
-#accordion h2 {color:#323A47;background:url(images/arrow-right-black.png) no-repeat 0 center}
-/* #accordion h2.current {color:#323A47;background:url(images/arrow-bottom-black.png) no-repeat 0 center} */
+/* #accordion h2 {color:#738D96;background:url(/images/arrow-right-grey.png) no-repeat 0 center} */
+#accordion h2 {color:#323A47;background:url(/images/arrow-right-black.png) no-repeat 0 center}
+/* #accordion h2.current {color:#323A47;background:url(/images/arrow-bottom-black.png) no-repeat 0 center} */
 
 #signupForm {color:#323A47;background:#9EC2CB}
 #signupForm a {color:#fff;}
 
 .page a {color:#000}
 
-.side-cart-top {background:url(images/side-cart-top.png) no-repeat top center;}
-.side-narsis-top {background:url(images/side-narsis-top.png) no-repeat top center;}
-.side-cart-middle {background:url(images/side-cart-middle.png) repeat-y top center;}
-.side-cart-bottom {background:url(images/side-cart-bottom.png) no-repeat bottom center;}
-.side-cart-middle ol li {background:url(images/separator.png) repeat-x bottom center;}
+.side-cart-top {background:url(/images/side-cart-top.png) no-repeat top center;}
+.side-narsis-top {background:url(/images/side-narsis-top.png) no-repeat top center;}
+.side-cart-middle {background:url(/images/side-cart-middle.png) repeat-y top center;}
+.side-cart-bottom {background:url(/images/side-cart-bottom.png) no-repeat bottom center;}
+.side-cart-middle ol li {background:url(/images/separator.png) repeat-x bottom center;}
 
 #thankyou .attention {background:#ffc;}
 
-#twitter_update_list li {background:url(images/separator.png) repeat-x bottom left;}
+#twitter_update_list li {background:url(/images/separator.png) repeat-x bottom left;}
 
-.separator {background: url(images/separator.png) repeat-x top left}
-.separator2 {background: url(images/separator2.png) repeat-x top left}
-.dash1 {background:url(images/dashed-black-left.png) no-repeat left top}
-.dash1 span {background:url(images/dashed-black-right.png) no-repeat right top}
-.dash2 {background:url(images/dashed-grey-left.png) no-repeat left top}
-.dash2 span {background:url(images/dashed-grey-right.png) no-repeat right top}
-.dash3 {background:url(images/dashed-white-left.png) no-repeat left top}
-.dash3 span {background:url(images/dashed-white-right.png) no-repeat right top}
-.dash4 {background:url(images/dashed-grey-big-left.png) no-repeat left top}
-.dash4 span {background:url(images/dashed-grey-big-right.png) no-repeat right top}
+.separator {background: url(/images/separator.png) repeat-x top left}
+.separator2 {background: url(/images/separator2.png) repeat-x top left}
+.dash1 {background:url(/images/dashed-black-left.png) no-repeat left top}
+.dash1 span {background:url(/images/dashed-black-right.png) no-repeat right top}
+.dash2 {background:url(/images/dashed-grey-left.png) no-repeat left top}
+.dash2 span {background:url(/images/dashed-grey-right.png) no-repeat right top}
+.dash3 {background:url(/images/dashed-white-left.png) no-repeat left top}
+.dash3 span {background:url(/images/dashed-white-right.png) no-repeat right top}
+.dash4 {background:url(/images/dashed-grey-big-left.png) no-repeat left top}
+.dash4 span {background:url(/images/dashed-grey-big-right.png) no-repeat right top}
 
 #menu a,
 #menu .has:hover ul li a,

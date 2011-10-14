@@ -1,13 +1,5 @@
-/*
-	Theme Name: GANTIBAJU 2.0
-	Theme URI: http://gantibaju.com/
-	Version: 0.0
-*/
+/*960 css*/
 
-
-@import url("css/reset.css");
-@import url("css/960.css");
-@import url("css/text.css");
 
 body {font-family:Calibri, "DroidSans", Helvetica, Arial, sans-serif;}
 
@@ -1062,9 +1054,9 @@ fb
 	margin-bottom:5px;
 }
 
-li#profile-web {background-image:url(images/icon-url.png)}
-li#profile-facebook {background-image:url(images/icon-fb.png)}
-li#profile-twitter {background-image:url(images/icon-tw.png)}
+li#profile-web {background-image:url(/images/icon-url.png)}
+li#profile-facebook {background-image:url(/images/icon-fb.png)}
+li#profile-twitter {background-image:url(/images/icon-tw.png)}
 
 #profile-tabbed {
 	margin-top:20px;
@@ -1999,7 +1991,7 @@ table.cart .cart-remove {
 	width:14px;
 	height:15px;
 	overflow:hidden;
-	background:url(images/icon-remove.png) no-repeat center top;
+	background:url(/images/icon-remove.png) no-repeat center top;
 	text-indent:100px;
 }
 
@@ -2056,9 +2048,9 @@ table.cart th {
 	background-repeat:no-repeat;
 }
 
-.voucher-yes {color:#090;background-image:url(images/icon-yes.png);}
-.voucher-warning {color:red;background-image:url(images/icon-warning.png);}
-.ask {background-image:url(images/icon-ask.png);}
+.voucher-yes {color:#090;background-image:url(/images/icon-yes.png);}
+.voucher-warning {color:red;background-image:url(/images/icon-warning.png);}
+.ask {background-image:url(/images/icon-ask.png);}
 
 .ask a {
 	font-weight:bold;
@@ -2126,7 +2118,7 @@ table.cart th {
 	color:#f00;
 	font-size:0.9em;
 	font-weight:bold;
-	background:#ffc url(images/icon-warning.png) no-repeat 3px center;
+	background:#ffc url(/images/icon-warning.png) no-repeat 3px center;
 	height:19px;
 	line-height:19px;
 	border:1px dashed #f00;
@@ -2315,7 +2307,7 @@ form#design label, form#design input.text, form#design select, form#design texta
 .tpl a {
 	float:left;
 	width:165px;
-	background:url(images/icon-template.png) no-repeat 0 0;
+	background:url(/images/icon-template.png) no-repeat 0 0;
 	padding-top:40px;
 }
 
@@ -2421,7 +2413,7 @@ form#design label, form#design input.text, form#design select, form#design texta
 	margin:10px 0;
 }
 #messagescbr {
-	background: url(images/emailbubble.png) no-repeat top left;
+	background: url(/images/emailbubble.png) no-repeat top left;
 	width: 153px;
 	height: 28px;
 	padding: 16px 5px 5px;
@@ -2498,7 +2490,7 @@ h1.big_title {
 .top3 .foreground {
 	position: absolute;
 	float: left;
-	background: url(images/top3_bg.png) no-repeat;
+	background: url(/images/top3_bg.png) no-repeat;
 	width: 909px;
 	height: 345px;
 }
@@ -2648,29 +2640,29 @@ hr.dashed-border {
 
 .buttonBuy {
         display: block; width: 75px; height: 30px;
-        background: url(images/button_beli_p.png) no-repeat;
+        background: url(/images/button_beli_p.png) no-repeat;
 
 }
 .viewAcc {
         display: block; width: 40px; height: 30px;position: relative;margin-left: 125px;
         padding-left: 25px;font-weight: bold;
-        background: url(images/eyes_view.png) no-repeat;
+        background: url(/images/eyes_view.png) no-repeat;
 }
 .buttonVote {
         display: block; width: 75px; height: 30px;
-        background: url(images/button_vote_p.png) no-repeat;
+        background: url(/images/button_vote_p.png) no-repeat;
 
 }
 .commentAcc {
         display: block; width: 40px; height: 30px;position: relative;margin-left: 120px;
         padding-left: 25px;font-weight: bold;
-        background: url(images/comment_view.png) no-repeat;
+        background: url(/images/comment_view.png) no-repeat;
 
 }
 .voteAcc {
         display: block; width: 40px; height: 30px;position: relative;margin-left: 165px;
         padding-left: 25px;font-weight: bold;margin-top:-30px;
-        background: url(images/vote_view.png) no-repeat;
+        background: url(/images/vote_view.png) no-repeat;
 
 }
 
@@ -2990,7 +2982,7 @@ hr.dashed-border {
 .voteAccFront {
         display: block; width: 30px; height: 30px;position: relative;
         padding-left: 25px;font-weight: bold;
-        background: url(images/vote_view.png) no-repeat;
+        background: url(/images/vote_view.png) no-repeat;
         float: left;
 }
 
@@ -2998,7 +2990,7 @@ hr.dashed-border {
         display: block; width: 40px; height: 30px;position: relative;
         padding-left: 25px;font-weight: bold;
         float: left;
-        background: url(images/comment_view.png) no-repeat;
+        background: url(/images/comment_view.png) no-repeat;
 
 }
 

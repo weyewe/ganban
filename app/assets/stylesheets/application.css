@@ -4,7 +4,12 @@
  * the top of the compiled file, but it's generally better to create a new file per style scope.
  *= require_self
  *= require superfish
+ *= require reset
+ *= require 960
+ *= require text
  *= require style_new
  *= require style
  *= require stylesheet
+ *= require jquery-ui
 */
+
